@@ -10,6 +10,12 @@ namespace tpmodul5_1302201136
     {
         static void Main(string[] args)
         {
-        }
+			
+			SayaTubeVideo video = new SayaTubeVideo("Tutorial Design By Contract - Juanda Sinurat");
+			video.IncreasePlayCount(460);
+			video.PrintVideoDetails();
+
+		}
+
     }
 }
